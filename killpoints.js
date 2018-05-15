@@ -5,8 +5,6 @@ let realmm = ''
 let localee;
 
 route(function(locale, realm, character) {
-	
-	
 	charName = character
 	realmm = realm
 	localee = locale
@@ -25,7 +23,6 @@ route(function(locale, realm, character) {
 	if (character && realm && locale)
 		fill()
 })
-
 
 $(window).on("load", function(){
 	document.getElementById('fname').innerHTML = charName
