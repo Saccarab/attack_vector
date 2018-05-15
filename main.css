@@ -1,0 +1,289 @@
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  background-image: url('./img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 8rem;
+}
+
+#character-selection {
+  margin-top: 6rem;
+}
+
+.killpoints {
+  font-size: x-large;
+}
+
+.card {
+  margin-top: 1rem;
+}
+
+input {
+    text-transform: capitalize;;
+}
+
+.alert {
+  margin-top: 1rem;
+}
+
+.footer {
+  padding-top: 1rem;
+  color: white;
+  background-color:#222;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  min-height: 6rem;
+}
+
+.footer a, .footer em, .footer i {
+  color: #fcab0e;
+}
+
+.progress-legendary {
+  width: calc(100% - 4rem);
+  margin-top: .5rem;
+  margin-right: .5rem;
+}
+
+.legendary {
+  color: #ff8000;
+}
+
+.bg-legendary {
+  background-color: #ff8000;
+}
+
+#DIV_1 {
+    box-sizing: border-box;
+    color: rgb(41, 43, 44);
+    height: 233.2px;
+    min-height: auto;
+    min-width: auto;
+    text-decoration: none solid rgb(41, 43, 44);
+    text-size-adjust: 100%;
+    width: 728.313px;
+    column-rule-color: rgb(41, 43, 44);
+    perspective-origin: 364.15px 116.6px;
+    transform-origin: 364.15px 116.6px;
+    caret-color: rgb(41, 43, 44);
+    border: 0px none rgb(41, 43, 44);
+    flex: 1 1 auto;
+    font: normal normal 400 normal 16px / 24px -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    outline: rgb(41, 43, 44) none 0px;
+    padding: 20px;
+}/*#DIV_1*/
+
+#H1_2 {
+    box-sizing: border-box;
+    color: rgb(41, 43, 44);
+    height: 79.2px;
+    text-decoration: none solid rgb(41, 43, 44);
+    text-size-adjust: 100%;
+    width: 688.313px;
+    column-rule-color: rgb(41, 43, 44);
+    perspective-origin: 344.15px 39.6px;
+    transform-origin: 344.15px 39.6px;
+    caret-color: rgb(41, 43, 44);
+    border: 0px none rgb(41, 43, 44);
+    font: normal normal 300 normal 72px / 79.2px -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    margin: 0px 0px 12px;
+    outline: rgb(41, 43, 44) none 0px;
+}/*#H1_2*/
+
+#P_3 {
+    box-sizing: border-box;
+    color: rgb(41, 43, 44);
+    height: 24px;
+    text-decoration: none solid rgb(41, 43, 44);
+    text-size-adjust: 100%;
+    width: 688.313px;
+    column-rule-color: rgb(41, 43, 44);
+    perspective-origin: 344.15px 12px;
+    transform-origin: 344.15px 12px;
+    caret-color: rgb(41, 43, 44);
+    border: 0px none rgb(41, 43, 44);
+    font: normal normal 400 normal 16px / 24px -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    margin: 0px 0px 16px;
+    outline: rgb(41, 43, 44) none 0px;
+}/*#P_3*/
+
+#A_4, #A_17 {
+    box-sizing: border-box;
+    color: rgb(2, 117, 216);
+    text-decoration: none solid rgb(2, 117, 216);
+    text-size-adjust: 100%;
+    touch-action: manipulation;
+    column-rule-color: rgb(2, 117, 216);
+    perspective-origin: 0px 0px;
+    transform-origin: 0px 0px;
+    caret-color: rgb(2, 117, 216);
+    border: 0px none rgb(2, 117, 216);
+    font: normal normal 400 normal 16px / 24px -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    outline: rgb(2, 117, 216) none 0px;
+}/*#A_4, #A_17*/
+
+#DIV_5 {
+    box-sizing: border-box;
+    color: rgb(41, 43, 44);
+    height: 62px;
+    text-decoration: none solid rgb(41, 43, 44);
+    text-size-adjust: 100%;
+    width: 688.313px;
+    column-rule-color: rgb(41, 43, 44);
+    perspective-origin: 344.15px 31px;
+    transform-origin: 344.15px 31px;
+    caret-color: rgb(41, 43, 44);
+    border: 0px none rgb(41, 43, 44);
+    font: normal normal 400 normal 16px / 24px -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    outline: rgb(41, 43, 44) none 0px;
+}/*#DIV_5*/
+
+#SIMPLE-FORM_6 {
+    box-sizing: border-box;
+    color: rgb(41, 43, 44);
+    text-decoration: none solid rgb(41, 43, 44);
+    text-size-adjust: 100%;
+    column-rule-color: rgb(41, 43, 44);
+    perspective-origin: 0px 0px;
+    transform-origin: 0px 0px;
+    caret-color: rgb(41, 43, 44);
+    border: 0px none rgb(41, 43, 44);
+    font: normal normal 400 normal 16px / 24px -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    outline: rgb(41, 43, 44) none 0px;
+}/*#SIMPLE-FORM_6*/
+
+#FORM_7 {
+    box-sizing: border-box;
+    color: rgb(41, 43, 44);
+    display: flex;
+    height: 38px;
+    text-decoration: none solid rgb(41, 43, 44);
+    text-size-adjust: 100%;
+    width: 688.313px;
+    column-rule-color: rgb(41, 43, 44);
+    align-items: center;
+    perspective-origin: 344.15px 19px;
+    transform-origin: 344.15px 19px;
+    caret-color: rgb(41, 43, 44);
+    border: 0px none rgb(41, 43, 44);
+    flex-flow: row wrap;
+    font: normal normal 400 normal 16px / 24px -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    margin: 0px;
+    outline: rgb(41, 43, 44) none 0px;
+}/*#FORM_7*/
+
+#SELECT_8 {
+    background-position: right 12px 50%;
+    color: rgb(70, 74, 76);
+    display: block;
+    height: 38px;
+    max-width: 100%;
+    min-height: auto;
+    min-width: auto;
+    text-decoration: none solid rgb(70, 74, 76);
+    text-size-adjust: 100%;
+    touch-action: manipulation;
+    vertical-align: middle;
+    width: 146.8px;
+    column-rule-color: rgb(70, 74, 76);
+    perspective-origin: 73.4px 19px;
+    transform-origin: 73.4px 19px;
+    caret-color: rgb(70, 74, 76);
+    background: rgb(255, 255, 255) url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23333' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E") no-repeat scroll right 12px 50% / 8px 10px padding-box border-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 4px 4px 4px 4px;
+    font: normal normal 400 normal 16px / 20px sans-serif;
+    outline: rgb(70, 74, 76) none 0px;
+    padding: 6px 28px 6px 12px;
+}/*#SELECT_8*/
+
+#OPTION_9, #OPTION_10, #OPTION_12 {
+    box-sizing: border-box;
+    color: rgb(70, 74, 76);
+    cursor: default;
+    min-height: 19.2px;
+    text-decoration: none solid rgb(70, 74, 76);
+    text-size-adjust: 100%;
+    column-rule-color: rgb(70, 74, 76);
+    caret-color: rgb(70, 74, 76);
+    border: 0px none rgb(70, 74, 76);
+    font: normal normal 400 normal 16px / 20px sans-serif;
+    outline: rgb(70, 74, 76) none 0px;
+}/*#OPTION_9, #OPTION_10, #OPTION_12*/
+
+#OPTION_11, #OPTION_13 {
+    box-sizing: border-box;
+    color: rgb(70, 74, 76);
+    cursor: default;
+    min-height: 19.2px;
+    text-decoration: none solid rgb(70, 74, 76);
+    text-size-adjust: 100%;
+    column-rule-color: rgb(70, 74, 76);
+    caret-color: rgb(70, 74, 76);
+    border: 0px none rgb(70, 74, 76);
+    font: normal normal 400 normal 16px / 20px sans-serif;
+    outline: rgb(70, 74, 76) none 0px;
+}/*#OPTION_11, #OPTION_13*/
+
+#INPUT_14, #INPUT_15 {
+    color: rgb(70, 74, 76);
+    display: block;
+    height: 38px;
+    min-height: auto;
+    min-width: auto;
+    text-decoration: none solid rgb(70, 74, 76);
+    text-size-adjust: 100%;
+    text-transform: capitalize;
+    touch-action: manipulation;
+    vertical-align: middle;
+    width: 220.4px;
+    column-rule-color: rgb(70, 74, 76);
+    perspective-origin: 110.2px 19px;
+    transform-origin: 110.2px 19px;
+    caret-color: rgb(70, 74, 76);
+    background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 4px 4px 4px 4px;
+    font: normal normal 400 normal 16px / 20px sans-serif;
+    outline: rgb(70, 74, 76) none 0px;
+    padding: 8px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s, -webkit-box-shadow 0.15s ease-in-out 0s;
+}/*#INPUT_14, #INPUT_15*/
+
+#INPUT_16 {
+    color: rgb(255, 255, 255);
+    cursor: default;
+    display: block;
+    height: 38px;
+    min-height: auto;
+    min-width: auto;
+    text-align: center;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-size-adjust: 100%;
+    text-transform: capitalize;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 100.713px;
+    column-rule-color: rgb(255, 255, 255);
+    align-items: flex-start;
+    perspective-origin: 50.35px 19px;
+    transform-origin: 50.35px 19px;
+    user-select: none;
+    caret-color: rgb(255, 255, 255);
+    background: rgb(2, 117, 216) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 1px solid rgb(2, 117, 216);
+    border-radius: 4px 4px 4px 4px;
+    font: normal normal 400 normal 16px / 20px sans-serif;
+    outline: rgb(255, 255, 255) none 0px;
+    padding: 8px 16px;
+    transition: all 0.2s ease-in-out 0s;
+}/*#INPUT_16*/
+
+

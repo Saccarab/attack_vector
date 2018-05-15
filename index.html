@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Cyber Vulnerable</title>
+    <style>
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 2px 16px;
+}
+</style>
+<!--     <link rel="icon" href="favicon.ico">
+ --><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="./killpoints.css">
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/riot-route/3.0.2/route.min.js"></script>
+    <script> var whTooltips = {colorLinks: false, iconizeLinks: true, renameLinks: false, iconSize: "medium"};</script>
+    <script type="text/javascript" src="https://wow.zamimg.com/widgets/power.js"></script>
+  </head>
+  <body style = "background-image: url('./img/background.jpg');">
+    <div class="container">
+      <div class="alert alert-warning">
+          <p><strong>NOTICE:</strong> The information presented here is <em>severely outdated</em>. Blizzard has made <a href="https://us.battle.net/forums/en/wow/topic/20753149009" target="_blank">numerous changes</a> to the drop rates, introduced per spec Bad Luck Protection&trade; and added craftable legendaries meaning this calculator is no longer relevant.<br><br> I'm leaving this up for entertainment purposes only.<p>
+      </div>
+
+
+      <div class="card">
+        <div class="container">
+          <h4><b><text id = "fname">John</text> <text id = "lname">Doe</text></b></h4> 
+          <select id="SELECT_1">
+            <option id="OPTION_2">
+              Region
+            </option> 
+            <option value="EU" id="OPTION_3">
+              EU
+            </option>
+            <option value="US" id="OPTION_4">
+              US
+            </option>
+            <option value="KR" id="OPTION_5">
+              KR
+            </option>
+            <option value="TW" id="OPTION_6">
+              TW
+            </option>
+        </select>
+          <input type="text" placeholder="Realm" id = "realm" class="INPUT_1" />
+          <input type="text" placeholder="Character name" id = "name" class="INPUT_1" />
+          <input type="submit" value="Calculate" id="INPUT_7" onclick = "fill()"/>
+          <br></br>
+        <a id = "tooltip_kiljaeden" href="http://www.wowhead.com/achievement=11781" rel="achievement=11781"></a>
+        <input id = "bossname_1" placeholder = "Kil'Jaeden"></input>
+        World Rank <text id = "Ranking1">55</text><text id = "guild_1"> with guild All CAPS - Twisting Nether</text> 
+        <br>
+        <a id = "tooltip_guldan" href="http://www.wowhead.com/achievement=10850" rel="achievement=10850"></a>
+        <input id = "bossname_2" placeholder = "Gul'dan"></input>
+        World Rank <text id = "Ranking2">123</text><text id = "guild_1"> with guild All CAPS - Twisting Nether</text> <br>
+        <a id = "tooltip_helya" href="http://www.wowhead.com/achievement=11398" rel="achievement=11398"></a>
+        <input id = "bossname_3" placeholder = "Helya"></input>
+        World Rank <text id = "Ranking3">77</text><text id = "guild_1"> with guild All CAPS - Twisting Nether</text> 
+        <br>
+        <a id = "tooltip_xavius" href="http://www.wowhead.com/achievement=10827" rel="achievement=10827"></a>
+        <input id = "bossname_4" placeholder = "Xavius"></input>
+        World Rank <text id = "Ranking4">66</text><text id = "guild_1"> with guild All CAPS - Twisting Nether</text> 
+        <br>
+        <a id = "tooltip_archimonde" href="http://www.wowhead.com/achievement=10043" rel="achievement=10043"></a>
+        <input id = "bossname_5" placeholder = "Archimonde"></input>
+        World Rank<text id = "Ranking5"> 34</text><text id = "guild_1"> with guild All CAPS - Twisting Nether</text>
+        <br>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="text-center">
+        <footer class="footer">
+          <p><a href="https://github.com/rsuurd/killpoints" target="_blank"><i class="fa fa-code"></i></a> with <i class="fa fa-beer"></i> by <a href="http://eu.battle.net/wow/en/character/Twisting%20Nether/Tunedbeast/simple" target="_blank">Tunedbeast@Twisting Nether</a> based on <a href="https://docs.google.com/spreadsheets/d/1uRPy-cc98TLHscgqMyjAz7yD3ON_dhaPDIr_Nand07U">the spreadsheet</a> by <a href="http://eu.battle.net/wow/en/character/azuregos/%D0%AD%D0%BD%D0%BC%D0%B5%D1%80%D0%BA%D0%B0%D1%80/simple" target="_blank">Энмеркар@Azuregos</a>.</p>
+          <p>For more information see <a href="http://www.mmo-champion.com/threads/2091126-Real-Legendary-drop-rates-and-other-statistics-for-9785-chars-Spreadsheet" target="_blank">this thread on mmo-champion</a>. All calculations and values here are pure <em>#feelycrafting</em> and should <u>not</u> be taken seriously.</p>
+        </footer>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.2/fetch.min.js"></script>
+    <script src="./killpoints.js"></script>
+
+  </body>
+</html>
